@@ -28,21 +28,23 @@ const App = () => (
       Protección de la Privacidad para Cualquier Dispositivo
     </p>
     <CardGrid />
-    <h1 style={{ color: 'white', fontSize: '45px' }}>
-      No guardamos tu
-      <br />
-      información personal. Jamás.
-    </h1>
-    <p style={{
-      color: 'white', marginTop: '30px', marginBottom: '0', lineHeight: '1.5em', fontSize: '20px',
-    }}
-    >
-      Nuestra política de privacidad es simple: No colectamos
-      <br />
-      o compartimos ninguna información personal tuya.
-    </p>
-    <Button color="#713828" text="Instalar DuckDuckGo" fontSize="18px" link="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg" />
-    <img alt="DuckDuckGo Monster" src="https://duckduckgo.com/assets/onboarding/bathroomguy/1-monster-v2--pre-animation.svg" style={{ marginTop: '30px', width: '55%' }} />
+    <div className='footer'>
+      <h1 style={{ color: 'white', fontSize: '45px' }}>
+        No guardamos tu
+        <br />
+        información personal. Jamás.
+      </h1>
+      <p style={{
+        color: 'white', marginTop: '30px', marginBottom: '0', lineHeight: '1.5em', fontSize: '20px',
+      }}
+      >
+        Nuestra política de privacidad es simple: No colectamos
+        <br />
+        o compartimos ninguna información personal tuya.
+      </p>
+      <Button color="#713828" text="Instalar DuckDuckGo" fontSize="18px" link="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg" />
+      <img alt="DuckDuckGo Monster" src="https://duckduckgo.com/assets/onboarding/bathroomguy/1-monster-v2--pre-animation.svg" style={{ marginTop: '30px', width: '55%' }} />
+    </div>
   </div>
 )
 
