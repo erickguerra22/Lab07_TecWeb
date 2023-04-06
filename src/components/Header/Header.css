@@ -1,0 +1,49 @@
+.header {
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 15px;
+    font-family: 'ddg-serp-icons' !important;
+    color: #AAAAAA;
+    position: relative;
+}
+
+.socialMedia:hover{
+    color: #6D6D6D
+}
+
+.settings:hover{
+    background: #6D6D6D;
+    color:white;
+}
+
+.socialMedia,
+.settings {
+    margin-left: 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.socialMedia {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.settings{
+    font-size: 16px;
+    padding:8px;
+    border-radius: 4px;
+    position: relative;
+}

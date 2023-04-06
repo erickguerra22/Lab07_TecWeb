@@ -1,0 +1,10 @@
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 11px;
+}
+
+.element img{
+  margin:0
+}
