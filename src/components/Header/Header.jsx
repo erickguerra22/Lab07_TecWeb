@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react'
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+import React, { useState } from 'react'
 
 import './Header.css'
-import { DropdownMenu } from '../DropdownMenu/DropdonMenu'
+import DropdownMenu from '../DropdownMenu/DropdonMenu'
 
 const Header = () => {
   const [dropDownHidden, setDDHidden] = useState(true)
@@ -11,7 +13,7 @@ const Header = () => {
       <div className="socialMedia">
         <div className="icon" onClick={() => setDDHidden((old) => !old)}>
           <div>H</div>
-          <div style={{ fontSize: "14px", paddingLeft: "4px" }}>v</div>
+          <div style={{ fontSize: '14px', paddingLeft: '4px' }}>v</div>
         </div>
         <DropdownMenu hidden={dropDownHidden} />
       </div>
@@ -22,4 +24,4 @@ const Header = () => {
   )
 }
 
-export { Header }
+export default Header

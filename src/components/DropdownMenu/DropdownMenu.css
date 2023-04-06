@@ -1,29 +1,29 @@
-.menu{
-    border-radius: 10px;
-    position: absolute;
-    margin: 35px;
-    margin-right: 80px;
-    visibility: visible;
-    padding: 15px 10px;
-    box-shadow: 0px 10px 16px -8px rgba(0, 0, 0, 0.2);
-    background: white;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    font-size: 15px;
-    align-items: flex-start;
-    font-family: "ProximaNova_Light";
-    text-align: left;
-    color:black;
-    opacity: 0;
-    transition: opacity 500ms;
+.menu {
+  border-radius: 10px;
+  position: absolute;
+  margin: 35px;
+  margin-right: 80px;
+  visibility: visible;
+  padding: 15px 10px;
+  box-shadow: 0px 10px 16px -8px rgba(0, 0, 0, 0.2);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 15px;
+  align-items: flex-start;
+  font-family: "ProximaNova_Light";
+  text-align: left;
+  color: black;
+  opacity: 0;
+  transition: opacity 500ms;
 }
 
-.menu a{
-    text-decoration: none;
-    color:black;
+.menu a {
+  text-decoration: none;
+  color: black;
 }
 
-.menu li:hover{
-    text-decoration: underline;
+.menu li:hover {
+  text-decoration: underline;
 }

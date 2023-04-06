@@ -1,10 +1,10 @@
-.button{
-    color:white;
-    font-family: "ProximaNova_Bold";
-    padding: 13px 15px;
-    margin-top: 25px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
+.button {
+  color: white;
+  font-family: "ProximaNova_Bold";
+  padding: 13px 15px;
+  margin-top: 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
 }

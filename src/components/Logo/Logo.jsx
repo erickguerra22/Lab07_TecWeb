@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from 'react'
-
+import React from 'react'
 import './Logo.css'
 
-const Logo = () => {
-    return (
-        <figure className="logo">
-            <img src="https://duckduckgo.com/assets/logo_homepage.normal.v108.svg"></img>
-        </figure>
-    )
-}
+const Logo = () => (
+  <figure className="logo">
+    <img alt="logo" src="https://duckduckgo.com/assets/logo_homepage.normal.v108.svg" />
+  </figure>
+)
 
-export { Logo }
+export default Logo
